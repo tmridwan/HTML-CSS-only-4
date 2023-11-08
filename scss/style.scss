@@ -642,6 +642,30 @@ color: white;
     transition: all .2s;
 }
 
+.contact button{
+    margin-top: 50px;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.contact button a{
+    color: white;
+    font-size: 15px;
+    background-color: rgb(27, 89, 181);
+    border-radius: 10px;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.contact button a:hover{
+    color: $paste;
+    background-color: white;
+}
+
+
+
 @media (max-width:500px) {
     .contact h1{
         font-size: 20px;

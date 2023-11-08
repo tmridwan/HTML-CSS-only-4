@@ -582,6 +582,29 @@ ul li a:hover {
   transition: all .2s;
 }
 
+.contact button {
+  margin-top: 50px;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.contact button a {
+  color: white;
+  font-size: 15px;
+  background-color: #1b59b5;
+  border-radius: 10px;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.contact button a:hover {
+  color: #1e8dd2;
+  background-color: white;
+}
+
 @media (max-width: 500px) {
   .contact h1 {
     font-size: 20px;
