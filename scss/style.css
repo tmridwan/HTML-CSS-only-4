@@ -1,11 +1,11 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  color: rgb(41, 41, 41);
+  color: #292929;
 }
 
 #navbar {
-  background-color: rgb(223, 222, 221);
+  background-color: #dfdedd;
   height: 70px;
   width: 100%;
   padding-top: 20px;
@@ -17,9 +17,9 @@ body {
 
 .logo {
   margin: 10px;
-  color: rgb(30, 141, 210);
+  color: #1e8dd2;
   font-weight: bold;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 0px 50px;
   font-size: 40px;
   display: inline;
@@ -37,7 +37,7 @@ body {
   font-size: 20px;
   padding: 10px;
   margin: 0 10px;
-  border: 2px solid rgb(30, 141, 210);
+  border: 2px solid #1e8dd2;
   border-radius: 0px 20px 20px 20px;
 }
 
@@ -53,7 +53,7 @@ ul li {
 }
 
 ul li a {
-  color: rgb(30, 141, 210);
+  color: #1e8dd2;
   text-decoration: none;
   font-size: 20px;
   padding: 10px 30px;
@@ -61,9 +61,10 @@ ul li a {
 }
 
 ul li a:hover {
-  color: rgb(30, 141, 210);
-  background: rgb(182, 229, 248);
-  transition: all 0.5s;
+  color: #1e8dd2;
+  background: #b6e5f8;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 @media (max-width: 800px) {
@@ -79,10 +80,11 @@ ul li a:hover {
     height: 300px;
     top: 90px;
     padding: 0px;
-    background: rgb(131, 199, 254);
+    background: #83c7fe;
     left: -100%;
     margin: 0px;
-    transition: all 0.5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
   }
   nav ul li {
     display: block !important;
@@ -97,12 +99,14 @@ ul li a:hover {
     padding: 0px 2px;
   }
 }
+
 @media (max-width: 400px) {
   .logo {
     font-size: 30px;
     margin: 0px;
   }
 }
+
 #upper {
   display: block;
   min-height: 400px;
@@ -134,8 +138,8 @@ ul li a:hover {
 }
 
 .upper1 p:nth-child(3) {
-  color: rgb(201, 198, 198);
-  background-color: rgb(41, 41, 41);
+  color: #c9c6c6;
+  background-color: #292929;
   font-size: 13px;
   display: inline;
   padding: 6px;
@@ -144,7 +148,7 @@ ul li a:hover {
 }
 
 .upper1 i {
-  color: rgb(30, 141, 210);
+  color: #1e8dd2;
 }
 
 .upper1 h3 {
@@ -152,7 +156,7 @@ ul li a:hover {
 }
 
 .upper1 h3 J {
-  color: rgb(30, 141, 210);
+  color: #1e8dd2;
 }
 
 .upper1 i:nth-child(5) {
@@ -177,6 +181,7 @@ ul li a:hover {
     font-size: 40px;
   }
 }
+
 @media (max-width: 700px) {
   .upperinner {
     padding-top: 35%;
@@ -198,16 +203,19 @@ ul li a:hover {
     font-size: 20px;
   }
 }
+
 @media (max-width: 580px) {
   .upper1 {
     padding-top: 12%;
   }
 }
+
 @media (max-width: 440px) {
   .upper1 {
     padding-top: 15%;
   }
 }
+
 #offer {
   padding: 50px 0px;
 }
@@ -217,14 +225,14 @@ ul li a:hover {
 }
 
 .container2 button {
-  color: rgb(30, 141, 210);
+  color: #1e8dd2;
   background-color: rgba(255, 255, 255, 0);
   border: 0;
   font-size: 15px;
 }
 
 .container2 i {
-  color: rgb(30, 141, 210);
+  color: #1e8dd2;
 }
 
 .container2 h3 {
@@ -232,7 +240,7 @@ ul li a:hover {
 }
 
 .container2 h3 J {
-  color: rgb(30, 141, 210);
+  color: #1e8dd2;
 }
 
 .col1 {
@@ -243,7 +251,7 @@ ul li a:hover {
 
 .col1 i {
   color: white;
-  background-color: rgb(41, 41, 41);
+  background-color: #292929;
   padding: 27px 25px;
   font-size: 30px;
   border-radius: 40px;
@@ -258,15 +266,16 @@ ul li a:hover {
 }
 
 .col1 a {
-  color: rgb(41, 41, 41);
+  color: #292929;
   text-decoration: none;
   padding: 10px 40px;
   border-radius: 4px;
-  transition: all 0.5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .col1 a:hover {
-  background-color: rgb(30, 141, 210);
+  background-color: #1e8dd2;
   color: white;
 }
 
@@ -278,7 +287,7 @@ ul li a:hover {
 
 .col2 i {
   color: white;
-  background-color: rgb(41, 41, 41);
+  background-color: #292929;
   padding: 25px;
   font-size: 30px;
   border-radius: 40px;
@@ -293,15 +302,16 @@ ul li a:hover {
 }
 
 .col2 a {
-  color: rgb(41, 41, 41);
+  color: #292929;
   text-decoration: none;
   padding: 10px 40px;
   border-radius: 4px;
-  transition: all 0.5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .col2 a:hover {
-  background-color: rgb(30, 141, 210);
+  background-color: #1e8dd2;
   color: white;
 }
 
@@ -313,7 +323,7 @@ ul li a:hover {
 
 .col3 i {
   color: white;
-  background-color: rgb(41, 41, 41);
+  background-color: #292929;
   padding: 25px;
   font-size: 30px;
   border-radius: 40px;
@@ -328,15 +338,16 @@ ul li a:hover {
 }
 
 .col3 a {
-  color: rgb(41, 41, 41);
+  color: #292929;
   text-decoration: none;
   padding: 10px 40px;
   border-radius: 4px;
-  transition: all 0.5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .col3 a:hover {
-  background-color: rgb(30, 141, 210);
+  background-color: #1e8dd2;
   color: white;
 }
 
@@ -351,8 +362,9 @@ ul li a:hover {
     width: 80%;
   }
 }
+
 #feature {
-  background-color: rgb(41, 41, 41);
+  background-color: #292929;
   color: white;
   padding: 0px 150px;
   padding-bottom: 50px !important;
@@ -363,7 +375,7 @@ ul li a:hover {
 }
 
 .container3 .fa-key {
-  background-color: rgb(30, 141, 210);
+  background-color: #1e8dd2;
   padding: 10px;
   font-size: 25px;
   border-radius: 50px;
@@ -372,7 +384,7 @@ ul li a:hover {
 }
 
 .fea i {
-  color: rgb(30, 141, 210);
+  color: #1e8dd2;
 }
 
 .fea h3 {
@@ -380,7 +392,7 @@ ul li a:hover {
 }
 
 .fea h3 J {
-  color: rgb(30, 141, 210);
+  color: #1e8dd2;
 }
 
 .fea p {
@@ -392,7 +404,7 @@ ul li a:hover {
 }
 
 .row1 i {
-  color: rgb(30, 141, 210);
+  color: #1e8dd2;
   font-size: 30px;
   display: inline-block;
 }
@@ -410,7 +422,7 @@ ul li a:hover {
 }
 
 .row1 i {
-  color: rgb(30, 141, 210);
+  color: #1e8dd2;
   font-size: 30px;
   display: inline-block;
 }
@@ -428,7 +440,7 @@ ul li a:hover {
 }
 
 .row2 i {
-  color: rgb(30, 141, 210);
+  color: #1e8dd2;
   font-size: 30px;
   display: inline-block;
 }
@@ -446,7 +458,7 @@ ul li a:hover {
 }
 
 .row3 i {
-  color: rgb(30, 141, 210);
+  color: #1e8dd2;
   font-size: 30px;
   display: inline-block;
 }
@@ -474,11 +486,13 @@ ul li a:hover {
     padding: 0px 50px;
   }
 }
+
 @media (max-width: 905px) {
   #feature {
     padding: 0px 20px;
   }
 }
+
 @media (max-width: 850px) {
   .lekha {
     width: 60%;
@@ -490,16 +504,19 @@ ul li a:hover {
     font-size: 15px;
   }
 }
+
 @media (max-width: 700px) {
   .fea p {
     font-size: 13px;
   }
 }
+
 @media (max-width: 570px) {
   .lekha p {
     font-size: 13px;
   }
 }
+
 @media (max-width: 450px) {
   #feature {
     padding: 0px 20px;
@@ -511,6 +528,7 @@ ul li a:hover {
     width: 80%;
   }
 }
+
 #contact {
   background: url("../img/blueBack.jpg") no-repeat center;
   min-height: 300px;
@@ -518,7 +536,7 @@ ul li a:hover {
 }
 
 .contact {
-  background-color: rgb(30, 141, 210);
+  background-color: #1e8dd2;
   border: 6px solid white;
   text-align: center;
   color: white;
@@ -552,14 +570,16 @@ ul li a:hover {
 }
 
 .contact input:nth-child(5) {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 30px 10px;
 }
 
 .contact input:focus {
   border: 0px;
-  background-color: rgb(0, 140, 255);
-  transition: all 0.2s;
+  background-color: #008cff;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 @media (max-width: 500px) {
@@ -573,4 +593,5 @@ ul li a:hover {
     width: 80%;
     font-size: 10px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
