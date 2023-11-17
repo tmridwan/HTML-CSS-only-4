@@ -148,19 +148,24 @@ ul li a:hover {
 }
 
 .upper1 i {
-  color: #1e8dd2;
+  color: #c9c6c6;
 }
 
 .upper1 h3 {
   font-size: 30px;
+  background-color: #1e8dd2;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
 }
 
 .upper1 h3 J {
-  color: #1e8dd2;
+  color: #c9c6c6;
 }
 
 .upper1 i:nth-child(5) {
   font-size: 50px;
+  display: block;
 }
 
 @media (max-width: 950px) {
